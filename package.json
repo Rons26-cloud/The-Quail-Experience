@@ -1,0 +1,67 @@
+{
+  "name": "gqf-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Global Quail Production - Professional Agri-Tech Website",
+  "author": "Your Company",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .js,.jsx",
+    "format": "prettier --write \"src/**/*.{js,jsx,css}\"",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "axios": "^1.17.0",
+    "dompurify": "^3.0.6",
+    "framer-motion": "^10.18.0",
+    "lucide-react": "^0.294.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-intersection-observer": "^10.0.3",
+    "react-router-dom": "^6.30.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.11",
+    "@tailwindcss/typography": "^0.5.20",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@vitejs/plugin-react": "^4.7.0",
+    "autoprefixer": "^10.5.0",
+    "eslint": "^8.52.0",
+    "eslint-plugin-react": "^7.33.2",
+    "postcss": "^8.5.15",
+    "prettier": "^3.1.0",
+    "tailwindcss": "^3.4.19",
+    "vite": "^5.4.21"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "quail",
+    "production",
+    "agriculture",
+    "agri-tech",
+    "farming",
+    "biosecurity",
+    "livestock"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "api.js",
+  "license": "ISC"
+}
