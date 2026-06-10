@@ -99,7 +99,7 @@ export default function LiveDashboard() {
           <div className="relative w-full bg-dark-bg" style={{ aspectRatio: '16/9', minHeight: '600px' }}>
             <iframe
               data-dashboard
-              src="https://lookerstudio.google.com/embed/reporting/YOUR_DASHBOARD_ID/page/YOUR_PAGE_ID"
+              src="blob:https://gemini.google.com/559d5e25-5c33-42eb-9af0-b795c26622c9"
               style={{
                 width: '100%',
                 height: '100%',
