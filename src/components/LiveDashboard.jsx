@@ -99,7 +99,7 @@ export default function LiveDashboard() {
           <div className="relative w-full bg-dark-bg" style={{ aspectRatio: '16/9', minHeight: '600px' }}>
             <iframe
               data-dashboard
-              src="blob:https://gemini.google.com/559d5e25-5c33-42eb-9af0-b795c26622c9"
+              src="https://datastudio.google.com/embed/reporting/737f05ab-13f7-48d4-bc60-661a7ecf5c91/page/yUn0F"
               style={{
                 width: '100%',
                 height: '100%',
